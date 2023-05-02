@@ -10,6 +10,9 @@ module.exports = {
         '128': '32rem',
         '250': '55rem',
         '256': '64rem',
+      },
+      backgroundImage:{
+        'black-pattern' : "url('/Images/darkBgPattern.jpg')",
       }
     },
   },
