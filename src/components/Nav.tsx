@@ -12,7 +12,7 @@ export default function Nav() {
         <Link to="/">
           <ZooIcon color='#f9fafb' className={'h-24'}/>
         </Link>
-        <div className='mr-20 text-lg flex flex-row'>
+        <div className=' mr-10 text-lg flex flex-row'>
           <NavLink to='/' className={({isActive}) => isActive? NavActivClass : defaultClass}>
             <img src="\Icons\Home.svg" className='mr-1 h-10' alt="Home Icon" />
             Home

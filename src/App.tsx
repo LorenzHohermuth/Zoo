@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Animals from './pages/Animals'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Animals from './pages/Animals'
 import AnimalPage from './components/AnimalPage'
+import AboutUs from './pages/AboutUs'
 
 function App() {
 
@@ -143,6 +143,7 @@ function App() {
         und sind durch das Washingtoner Artenschutzabkommen Cites vom kommerziellen internationalen Handel ausgeschlossen. 
         Trotzdem hat die Nachfrage nach Fleisch, Eiern und Panzern nicht abgenommen. Viele Populationen stehen kurz vor der Ausrottung.`}
         />}/>
+        <Route path='aboutUs' element={<AboutUs/>}/>
       </Routes>
       <Footer/>
     </div>    
