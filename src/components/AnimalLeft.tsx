@@ -8,9 +8,9 @@ export default function AnimalLeft({image,name,sciName,endangered, popultaion, w
 
   return (
     <div className=' my-20 flex items-center'>
-      <div className={`duration-300 absolute w-250 h-128  bg-opacity-50 bg-neutral-800 flex justify-center items-center ${overClass}`}
+      <div className={`duration-200 absolute w-250 h-128  bg-opacity-50 bg-neutral-800 flex justify-center items-center ${overClass}`}
       onMouseOut={() => setHoverClass('-left-full')} onMouseOver={() => setHoverClass('left-0')}>
-        <Link className='w-full h-full flex justify-center items-center' to={link}>
+        <Link onClick={() => window.scrollTo(0, 0)} className='w-full h-full flex justify-center items-center' to={link}>
             <div className='text-5xl font-semibold text-emerald-50'>{name}</div>
         </Link>
       </div>

@@ -4,8 +4,8 @@ import ZooIcon from './ZooIcon';
 
 export default function Nav() {
 
-  const defaultClass = ' text-emerald-50 mx-3 flex flex-row items-center';
-  const NavActivClass = '' + defaultClass;
+  const defaultClass = 'pl-3 pr-4 rounded-full text-emerald-50 mx-2 flex flex-row items-center';
+  const NavActivClass = 'bg-emerald-700' + " " + defaultClass;
 
   return (
     <div className='flex items-center bg-emerald-600 h-20 justify-between'>
@@ -18,11 +18,11 @@ export default function Nav() {
             Home
           </NavLink>
           <NavLink to='animals' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-          <img src="\Icons\bear.svg" className='mr-1 h-10' alt="Home Icon" />
+          <img src="\Icons\bear.svg" className='mr-1 h-10' alt="Animal Icon" />
             Tiere
           </NavLink>
           <NavLink to='aboutUs' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-          <img src="\Icons\AboutUs.svg" className='mr-1 h-10' alt="Home Icon" />
+          <img src="\Icons\AboutUs.svg" className='mr-1 h-10' alt="AboutUs Icon" />
             About Us
           </NavLink>
         </div>

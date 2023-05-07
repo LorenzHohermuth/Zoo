@@ -8,12 +8,10 @@ module.exports = {
     extend: {
       spacing: {
         '128': '32rem',
+        '144': '45rem',
         '250': '55rem',
         '256': '64rem',
       },
-      backgroundImage:{
-        'black-pattern' : "url('/Images/darkBgPattern.jpg')",
-      }
     },
   },
   plugins: [],

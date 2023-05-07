@@ -53,9 +53,9 @@ export default function AnimalRight({image,name,sciName,endangered, popultaion, 
 
       <div className='w-full justify-end flex'>
 
-        <div className={`duration-300 absolute w-250 h-128  bg-opacity-50 bg-neutral-800 ${overClass}`}
+        <div className={`duration-200 absolute w-250 h-128  bg-opacity-50 bg-neutral-800 ${overClass}`}
         onMouseOut={() => setHoverClass('-right-full')} onMouseOver={(e) => setHoverClass('right-0')}>
-          <Link className='w-full h-full flex justify-center items-center' to={link}>
+          <Link onClick={() => window.scrollTo(0, 0)} className='w-full h-full flex justify-center items-center' to={link}>
             <div className='text-5xl font-semibold text-emerald-50'>{name}</div>
           </Link>
         </div>
