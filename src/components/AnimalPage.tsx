@@ -10,42 +10,42 @@ export default function AnimalPage({imageTop, imageBottom,name,sciName,endangere
               <h1 className='text-5xl font-semibold pl-3'>{name}</h1>
               <div className='h-px bg-gray-300 my-2'></div>
             </div>
-            <div className='my-7 mx-5 text-center'>
-              <p className='text-3xl font-semibold text-gray-800'>
+            <div className='mt-7 mb-12 mx-5 text-center'>
+              <p className='text-2xl font-semibold text-gray-800'>
                 {text1}
               </p>
             </div>
             <div className='flex'>
               <div className='w-1/2 px-7 py-3 text-gray-800'>
-                <p className='text-lg font-medium leading-7'>
+                <p className='text-lg font-medium leading-8'>
                  {text2}
                 </p>
               </div>
               <div className=' bg-gray-300 w-px'></div>
-              <div className='px-5'>
+              <div className='ml-20 mt-10'>
                 <div className='flex items-center'>
-                  <img className='h-16' src="\Icons/name.svg" alt="nametag" />
+                  <img className='h-14' src="\Icons/name.svg" alt="nametag" />
                   <div className='text-xl'>
                     <div className='font-semibold'>Wissenschaftlicher Name</div>
                     <div>{sciName}</div>
                   </div>
                 </div>
                 <div className='flex my-5 items-center'>
-                  <img className='h-16 p-3' src="\Icons/warning.svg" alt="nametag" />
+                  <img className='h-14 p-3' src="\Icons/warning.svg" alt="nametag" />
                   <div className='text-xl'>
                     <div className='font-semibold'>Gefährdungsstatus (IUCN)</div>
                     <div>{endangered}</div>
                   </div>
                 </div>
                 <div className='flex my-5 items-center'>
-                  <img className='h-16 p-1' src="\Icons/popultaion.svg" alt="nametag" />
+                  <img className='h-14 p-1' src="\Icons/popultaion.svg" alt="nametag" />
                   <div className='text-xl'>
                     <div className='font-semibold'>Population</div>
                     <div>{popultaion}</div>
                   </div>
                 </div>
                 <div className='flex my-5 items-center'>
-                  <img className='h-16 p-1.5' src="\Icons/ruler.svg" alt="nametag" />
+                  <img className='h-14 p-1.5' src="\Icons/ruler.svg" alt="nametag" />
                   <div className='text-xl'>
                     <div className='font-semibold'>Körpergrösse</div>
                     <div>Gewicht: {weight}</div>

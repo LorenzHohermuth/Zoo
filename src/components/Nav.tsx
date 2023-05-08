@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink , Link } from 'react-router-dom'
 import ZooIcon from './ZooIcon';
+import HamburgerNav from './HamburgerNav';
 
 export default function Nav() {
 
@@ -12,7 +13,8 @@ export default function Nav() {
         <Link to="/">
           <ZooIcon color='#f9fafb' className={'h-24'}/>
         </Link>
-        <div className=' mr-10 text-lg flex flex-row'>
+        <HamburgerNav/>
+        <div className=' mr-10 text-lg sm:flex hidden flex-row '>
           <NavLink to='/' className={({isActive}) => isActive? NavActivClass : defaultClass}>
             <img src="\Icons\Home.svg" className='mr-1 h-10' alt="Home Icon" />
             Home

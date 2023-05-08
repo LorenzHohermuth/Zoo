@@ -4,8 +4,8 @@ import ZooIcon from './ZooIcon'
 
 export default function Footer() {
   return (
-    <div className=' bg-gray-700 flex items-center h-96 text-gray-500 font-bold'>
-        <ZooIcon color='#6b7280' className={'h-60'}/>
+    <div className=' bg-gray-700 flex items-center md:h-96 h-64 text-gray-500 font-bold md:text-base sm:text-sm text-xs'>
+        <ZooIcon color='#6b7280' className={'md:h-60 sm:h-40 h-32'}/>
           <ul>
             <li>Lorenz</li>
             <li>Hohermuth</li>

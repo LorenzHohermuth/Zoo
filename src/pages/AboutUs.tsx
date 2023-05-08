@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutUs() {
   return (
     <div className='px-80 font-semibold'>
-        <section className='text-lg my-16'>
+        <section id='aboutUs' className='text-lg my-16'>
             <h1 className='text-3xl mb-8'>About Us</h1>
             Hallo, ich heisse Lorenz Hohermuth und ich bin 16 Jahre alt und habe eine Lehre als 
             Applikationsentwickler bei der <a href="https://www.bsi-software.com/de-ch" className='underline'>BSI</a>.
@@ -14,7 +14,7 @@ export default function AboutUs() {
             ich habe mich für bedrohte Tiere entschieden.
             Ich habe mich hauptsächlich auf die Seite der <a href="https://www.wwf.ch/de" className='underline'>WWF</a> gestützt.
         </section>
-        <section className='text-lg my-16'>
+        <section id='ourVision' className='text-lg my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Our Vision</h1>
             Elefanten sind die Gärtner des Waldes. Wolf und Luchs fördern gesunde Beutetier-Bestände.
             Pflanzen kühlen das lokale Klima.
@@ -28,7 +28,7 @@ export default function AboutUs() {
             Internationale Abkommen, Veränderungen in Produktion und Konsum oder riesige, neue Schutzgebiete machen Hoffnung.
             Wir wollen jedoch noch viel mehr erreichen.
         </section>
-        <section className='text-lg my-16'>
+        <section id='contact' className='text-lg my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Contact</h1>
             <ul>
                 <li>Lorenz</li>
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 <li>+41 79 710 81 68</li>
             </ul>
         </section>
-        <section className='text-lg my-16'>
+        <section id='location'  className='text-lg my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Location</h1>
             <ul>
                 <li>Pionierstrasse 28</li>

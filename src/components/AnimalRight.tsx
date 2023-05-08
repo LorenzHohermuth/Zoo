@@ -7,7 +7,7 @@ export default function AnimalRight({image,name,sciName,endangered, popultaion, 
   const [overClass, setHoverClass] = useState('-right-full')
 
   return (
-    <div className=' my-20 flex items-center'>
+    <div className=' my-20 flex items-center hidden'>
 
       <div className=''>
         <div className='w-fit'>
@@ -16,30 +16,30 @@ export default function AnimalRight({image,name,sciName,endangered, popultaion, 
               {name}
               <div className='h-px mb-2.5 mt-3 bg-gray-300'></div>
             </h1>
-            <div>
+            <div className='mt-4'>
               <div className='flex items-center'>
-                <img className='h-16' src="Icons/name.svg" alt="nametag" />
+                <img className='h-16 mr-2' src="Icons/name.svg" alt="nametag" />
                 <div className='text-xl'>
                   <div className='font-semibold'>Wissenschaftlicher Name</div>
                   <div>{sciName}</div>
                 </div>
               </div>
               <div className='flex my-5 items-center'>
-                <img className='h-16 p-3' src="Icons/warning.svg" alt="nametag" />
+                <img className='h-16 mr-2 p-3' src="Icons/warning.svg" alt="nametag" />
                 <div className='text-xl'>
                   <div className='font-semibold'>Gefährdungsstatus (IUCN)</div>
                   <div>{endangered}</div>
                 </div>
               </div>
               <div className='flex my-5 items-center'>
-                <img className='h-16 p-1' src="Icons/popultaion.svg" alt="nametag" />
+                <img className='h-16 mr-2 p-1' src="Icons/popultaion.svg" alt="nametag" />
                 <div className='text-xl'>
                   <div className='font-semibold'>Population</div>
                   <div>{popultaion}</div>
                 </div>
               </div>
               <div className='flex my-5 items-center'>
-                <img className='h-16 p-1.5' src="Icons/ruler.svg" alt="nametag" />
+                <img className='h-16 mr-2 p-1.5' src="Icons/ruler.svg" alt="nametag" />
                 <div className='text-xl'>
                   <div className='font-semibold'>Körpergrösse</div>
                   <div>{`Gewicht: ${weight}`}</div>
