@@ -5,7 +5,7 @@ export default function AnimalPage({imageTop, imageBottom,name,sciName,endangere
   return (
     <div>
         <img src={`/Images/${imageTop}`} alt="tierbilder-wwf" className='w-screen object-cover h-144'/>
-        <div className='px-52 py-14'>
+        <div className='xl:px-52 px-24 py-14'>
             <div>
               <h1 className='text-5xl font-semibold pl-3'>{name}</h1>
               <div className='h-px bg-gray-300 my-2'></div>
@@ -15,14 +15,8 @@ export default function AnimalPage({imageTop, imageBottom,name,sciName,endangere
                 {text1}
               </p>
             </div>
-            <div className='flex'>
-              <div className='w-1/2 px-7 py-3 text-gray-800'>
-                <p className='text-lg font-medium leading-8'>
-                 {text2}
-                </p>
-              </div>
-              <div className=' bg-gray-300 w-px'></div>
-              <div className='ml-20 mt-10'>
+            <div className='lg:flex flex-row-reverse justify-center'>
+              <div className='lg:ml-20 ml-10 lg:my-10 my-16'>
                 <div className='flex items-center'>
                   <img className='h-14' src="\Icons/name.svg" alt="nametag" />
                   <div className='text-xl'>
@@ -53,15 +47,21 @@ export default function AnimalPage({imageTop, imageBottom,name,sciName,endangere
                   </div>
                 </div>
               </div>
+              <div className=' bg-gray-300 w-px'></div>
+              <div className='lg:w-1/2 px-7 py-3 text-gray-800'>
+                <p className='text-lg font-medium leading-8'>
+                 {text2}
+                </p>
+              </div>
             </div>
 
         </div>
 
-        <div className='my-20 flex bg-gray-800 w-full py-10 items-center'>
-          <img src={`/Images/${imageBottom}`} className='h-128' alt="" />
-          <div className='ml-16 text-gray-300 text-2xl font-semibold'>
-            <div className=' text-3xl mb-16 w-full flex justify-center'>{titlebottom}</div>
-            <div className='px-12'>
+        <div className='my-20 2xl:flex bg-gray-800 w-full py-10 items-center'>
+          <img src={`/Images/${imageBottom}`} className='lg:h-128 lg:w-250 object-cover w-full' alt="" />
+          <div className='m-16 text-gray-300 text-2xl font-semibold'>
+            <div className=' text-3xl mb-16 2xl:text-center'>{titlebottom}</div>
+            <div className=''>
               {textbottom}
             </div>
           </div>
