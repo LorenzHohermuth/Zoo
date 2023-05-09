@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function AboutUs() {
   return (
-    <div className='px-80 font-semibold'>
-        <section id='aboutUs' className='text-lg my-16'>
+    <div className='xl:px-80 lg:px-40 md:px-24 sm:px-14 px-10 sm:text-base text-sm leading-6 font-semibold'>
+        <section id='aboutUs' className=' my-16'>
             <h1 className='text-3xl mb-8'>About Us</h1>
             Hallo, ich heisse Lorenz Hohermuth und ich bin 16 Jahre alt und habe eine Lehre als 
             Applikationsentwickler bei der <a href="https://www.bsi-software.com/de-ch" className='underline'>BSI</a>.
@@ -14,7 +14,7 @@ export default function AboutUs() {
             ich habe mich für bedrohte Tiere entschieden.
             Ich habe mich hauptsächlich auf die Seite der <a href="https://www.wwf.ch/de" className='underline'>WWF</a> gestützt.
         </section>
-        <section id='ourVision' className='text-lg my-16'>
+        <section id='ourVision' className=' my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Our Vision</h1>
             Elefanten sind die Gärtner des Waldes. Wolf und Luchs fördern gesunde Beutetier-Bestände.
             Pflanzen kühlen das lokale Klima.
@@ -28,7 +28,7 @@ export default function AboutUs() {
             Internationale Abkommen, Veränderungen in Produktion und Konsum oder riesige, neue Schutzgebiete machen Hoffnung.
             Wir wollen jedoch noch viel mehr erreichen.
         </section>
-        <section id='contact' className='text-lg my-16'>
+        <section id='contact' className=' my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Contact</h1>
             <ul>
                 <li>Lorenz</li>
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 <li>+41 79 710 81 68</li>
             </ul>
         </section>
-        <section id='location'  className='text-lg my-16'>
+        <section id='location'  className=' my-16'>
             <h1 className='text-3xl font-semibold mb-8'>Location</h1>
             <ul>
                 <li>Pionierstrasse 28</li>
@@ -58,7 +58,7 @@ export default function AboutUs() {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.92770161163213!2d8.72007422840176!3d47.49813542201019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a997124b3a3c9%3A0x5987fd36c95768e7!2sBerufsbildungsschule%20Winterthur%3A%20Abteilung%20Informatik!5e1!3m2!1sde!2sch!4v1683462591868!5m2!1sde!2sch" 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                className='w-full h-144 mt-16'></iframe>
+                className='w-full lg:h-144 md:h-96 h-64 mt-16'></iframe>
             </div>
         </section>    
     </div>
