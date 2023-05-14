@@ -43,12 +43,13 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    
+    if: github.ref == 'refs/heads/main'
+
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
-          name: prod-files
+          name: production-files
           path: ./dist
 
       - name: Deploy to GitHub Pages
