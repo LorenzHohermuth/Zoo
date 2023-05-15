@@ -16,7 +16,7 @@ export default function AnimalRight({image,name,sciName,endangered, popultaion, 
       </div>
 
       <div className='w-full flex md:justify-end'>
-        <img src={`Images/${image}`} className='object-cover xl:my-16 2xl:h-128 sm:h-100 xs:h-80 h-64 2xl:w-250 md:w-144 w-full' alt="animal image" 
+        <img src={`/Zoo/Images/${image}`} className='object-cover xl:my-16 2xl:h-128 sm:h-100 xs:h-80 h-64 2xl:w-250 md:w-144 w-full' alt="animal image" 
         onMouseOver={() => setHoverClass('right-0')}/>  
       </div>
 
@@ -28,28 +28,28 @@ export default function AnimalRight({image,name,sciName,endangered, popultaion, 
           </h1>
           <div className='mt-4'>
             <div className='flex items-center'>
-              <img className='sm:h-16 h-14 mr-2' src="Icons/name.svg" alt="nametag" />
+              <img className='sm:h-16 h-14 mr-2' src="/Zoo/Icons/name.svg" alt="nametag" />
               <div>
                 <div className='font-semibold'>Wissenschaftlicher Name</div>
                 <div>{sciName}</div>
               </div>
             </div>
             <div className='flex my-5 items-center'>
-              <img className='sm:h-16 h-14 mr-2 p-3' src="Icons/warning.svg" alt="nametag" />
+              <img className='sm:h-16 h-14 mr-2 p-3' src="/Zoo/Icons/warning.svg" alt="nametag" />
               <div>
                 <div className='font-semibold'>Gefährdungsstatus (IUCN)</div>
                 <div>{endangered}</div>
               </div>
             </div>
             <div className='flex my-5 items-center'>
-              <img className='sm:h-16 h-14 mr-2 p-1' src="Icons/popultaion.svg" alt="nametag" />
+              <img className='sm:h-16 h-14 mr-2 p-1' src="/Zoo/Icons/popultaion.svg" alt="nametag" />
               <div>
                 <div className='font-semibold'>Population</div>
                 <div>{popultaion}</div>
               </div>
             </div>
             <div className='flex my-5 items-center'>
-              <img className='sm:h-16 h-14 mr-2 p-1.5' src="Icons/ruler.svg" alt="nametag" />
+              <img className='sm:h-16 h-14 mr-2 p-1.5' src="/Zoo/Icons/ruler.svg" alt="nametag" />
               <div>
                 <div className='font-semibold'>Körpergrösse</div>
                 <div>{`Gewicht: ${weight}`}</div>

@@ -6,7 +6,7 @@ export default function Animals() {
   return (
     <div>
       {/* Hero */}
-      <img src="Images\Gruene-Meeresschildkroete.jpg" alt="panda" className='w-screen object-cover xl:h-128 h-96'/>
+      <img src="/Zoo/Images/Gruene-Meeresschildkroete.jpg" alt="panda" className='w-screen object-cover xl:h-128 h-96'/>
       <AnimalLeft 
       link = "panda"
       image="panda liegt auf baum_ergebnis.jpg"
