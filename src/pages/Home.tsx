@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
         
-        <img src="https://eu2.contabostorage.com/45e93289c054458996e4f2c13ea273c4:lennylam/indischer-tiger.png" alt="tieger-wwf" className='w-screen object-cover md:h-250 h-144'/>
+        <img src="https://github.com/LorenzHohermuth/Zoo/blob/main/public/Images/indischer-tiger.jpg" alt="tieger-wwf" className='w-screen object-cover md:h-250 h-144'/>
       </div>
 
       
