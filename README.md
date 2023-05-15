@@ -11,7 +11,7 @@ https://lorenzhohermuth.github.io/Zoo/
 
 ## See Code ⚡
 Requirements:
- - node installed
+ - npm installed
 
 In Terminal
 ```bash
