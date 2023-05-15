@@ -24,7 +24,7 @@ export default function Nav() {
             Tiere
           </NavLink>
           <NavLink to='aboutUs' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-          <img src="Icons\AboutUs.svg" className='mr-1 h-10' alt="AboutUs Icon" />
+          <img src="Icons/AboutUs.svg" className='mr-1 h-10' alt="AboutUs Icon" />
             About Us
           </NavLink>
         </div>

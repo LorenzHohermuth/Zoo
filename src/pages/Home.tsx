@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
         
-        <img src="/Images/indischer-tiger.jpg" alt="tieger-wwf" className='w-screen object-cover md:h-250 h-144'/>
+        <img src="Images/indischer-tiger.jpg" alt="tieger-wwf" className='w-screen object-cover md:h-250 h-144'/>
       </div>
 
       
