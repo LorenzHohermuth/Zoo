@@ -13,7 +13,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/' element={<Navigate replace to='/'/>}/>
+        <Route path='Zoo' element={<Navigate replace to='/'/>}/>
         <Route path='animals' element={<Animals/>}/>
         <Route path='animals/panda' element={<AnimalPage
         imageTop = "pandahero.jpg"
