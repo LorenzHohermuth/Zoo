@@ -1,7 +1,3 @@
-<p align="center">
- <img src="https://raw.githubusercontent.com/LorenzHohermuth/Zoo/main/public/Icons/zoo_icon.svg" alt="Girl in a jacket" width="400">
-<p/>
-
 
 # MyZoo 🐊
 
