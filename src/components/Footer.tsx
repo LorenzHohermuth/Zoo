@@ -15,7 +15,7 @@ export default function Footer() {
             <li> <a href="mailto:lorenz.hohermuth@lernende.bbw.ch" className='underline'>lorenz.hohermuth@lernende.bbw.ch</a></li>
             <li><a href="tel:+417108168" className='underline'>+41 79 710 81 68</a></li>
             <br />
-            <li><Link to='aboutUs#Impressum' className='underline'>Impressum </Link></li>
+            <li><Link to='Zoo/aboutUs#Impressum' className='underline'>Impressum </Link></li>
           </ul>
     </div>
   )

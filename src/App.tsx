@@ -12,10 +12,9 @@ function App() {
     <div>
       <Nav/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='Zoo' element={<Navigate replace to='/'/>}/>
-        <Route path='animals' element={<Animals/>}/>
-        <Route path='animals/panda' element={<AnimalPage
+        <Route path='Zoo' element={<Home/>}/>
+        <Route path='Zoo/animals' element={<Animals/>}/>
+        <Route path='Zoo/animals/panda' element={<AnimalPage
         imageTop = "pandahero.jpg"
         imageBottom = "Pandamutter-mit-Jungem.jpg"
         name = "Panda"
@@ -42,7 +41,7 @@ function App() {
         Doch 1860 Grosse Pandas in freier Wildbahn sind immer noch nicht viele. Der Schwund ihres Lebensraums macht es ihnen immer schwerer, zueinanderzufinden.
         Die meisten Pandabären leben heute in wenigen, schmalen Waldgürteln, die durch Äcker, Strassen und Siedlungen voneinander getrennt sind`}
         />}/>
-        <Route path='animals/polarbear' element={<AnimalPage
+        <Route path='Zoo/animals/polarbear' element={<AnimalPage
         imageTop = "polarbearhero.jpg"
         imageBottom = "Zwei-neugierige-Eisbaeren.jpg"
         name = "Eisbär"
@@ -71,7 +70,7 @@ function App() {
         Die wichtigste Ursache liegt im Schmelzen des Packeises, einer direkten Folge der Klimaerwärmung. 
         Aber auch sonst ist die Hauptbedrohung der Mensch.`}
         />}/>
-        <Route path='animals/tiger' element={<AnimalPage
+        <Route path='Zoo/animals/tiger' element={<AnimalPage
         imageTop = "tigerhero.jpg"
         imageBottom = "tiger fell streifen.jpg"
         name = "Tiger"
@@ -107,7 +106,7 @@ function App() {
         Wilderer töten ihn gezielt auch noch in seinen letzten Rückzugsgebieten. 
         Nur eine umfassende Schutzstrategie kann ihn retten.`}
         />}/>
-        <Route path='animals/turtle' element={<AnimalPage
+        <Route path='Zoo/animals/turtle' element={<AnimalPage
         imageTop = "turtlehero.jpg"
         imageBottom = "Junge-Meeresschildkroeten-Wanderung.jpg"
         name = "Meeresschildkröten"
@@ -144,7 +143,7 @@ function App() {
         und sind durch das Washingtoner Artenschutzabkommen Cites vom kommerziellen internationalen Handel ausgeschlossen. 
         Trotzdem hat die Nachfrage nach Fleisch, Eiern und Panzern nicht abgenommen. Viele Populationen stehen kurz vor der Ausrottung.`}
         />}/>
-        <Route path='aboutUs' element={<AboutUs/>}/>
+        <Route path='Zoo/aboutUs' element={<AboutUs/>}/>
       </Routes>
       <Footer/>
     </div>    
