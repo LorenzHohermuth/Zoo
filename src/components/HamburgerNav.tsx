@@ -33,19 +33,19 @@ export default function HamburgerNav() {
             <div className={'duration-200 absolute right-6 bg-emerald-50 w-8 h-1.5 ' + elm3}></div>
         </button>
         <div className={isOpen ? '' : 'hidden'}>
-            <div className=' bg-emerald-500 absolute top-20 right-0 rounded-b-xl'>
-            <NavLink to='Zoo' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-                <img src="Icons\Home.svg" className='mr-1 h-10' alt="Home Icon" />
-                Home
-            </NavLink>
-            <NavLink to='Zoo/animals' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-                <img src="Icons\bear.svg" className='mr-1 h-10' alt="Animal Icon" />
-                Tiere
-            </NavLink>
-            <NavLink to='Zoo/aboutUs' className={({isActive}) => isActive? NavActivClass : defaultClass}>
-                <img src="Icons\AboutUs.svg" className='mr-1 h-10' alt="AboutUs Icon" />
-                About Us
-            </NavLink>
+            <div className=' bg-emerald-500 absolute top-20 right-0 rounded-b-xl z-10'>
+                <NavLink to='Zoo/' className={({isActive}) => isActive? NavActivClass : defaultClass}>
+                    <img src="Icons\Home.svg" className='mr-1 h-10' alt="Home Icon" />
+                    Home
+                </NavLink>
+                <NavLink to='Zoo/animals' className={({isActive}) => isActive? NavActivClass : defaultClass}>
+                    <img src="Icons\bear.svg" className='mr-1 h-10' alt="Animal Icon" />
+                    Tiere
+                </NavLink>
+                <NavLink to='Zoo/aboutUs' className={({isActive}) => isActive? NavActivClass : defaultClass}>
+                    <img src="Icons\AboutUs.svg" className='mr-1 h-10' alt="AboutUs Icon" />
+                    About Us
+                </NavLink>
             </div>
         </div>
     </div>
